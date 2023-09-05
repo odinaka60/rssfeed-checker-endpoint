@@ -11,7 +11,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"Go to /check and input rss feed url as query parameter"}
+    return {"Go to api docs (eg. my-url/docs) and input rss feed url as query parameter"}
 
 
 @app.get("/check")
